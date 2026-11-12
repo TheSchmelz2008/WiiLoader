@@ -16,7 +16,6 @@ def opensdfolder():
 
 def installfunction():
     if folder_path == "":
-        print("Pick an SD folder first!")
         return
     if selected_option.get() == "400cc":
         url = "https://github.com/TheSchmelz2008/database/releases/download/1/400cc.zip"
